@@ -1,5 +1,5 @@
-Here you can say lots of fun things about your site.
+# Hey there.. 
 
-Maybe say a some things about yourself.
+I'm Luke, a 20-something software developer out of Oklahoma.
 
-Or maybe what you plan to blog about.
+This blog was maybe created more out of my love for RSS feeds than me actually having anything to say -- but we'll see.
