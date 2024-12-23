@@ -7,12 +7,12 @@ description: "" # This will show up in places like twitter, linkedin, etc, if yo
 github_username: "lukearnould"
 linkedin_username: "lukearnould"
 instagram_username: "luke.arnould"
-#youtube_username: username
+youtube_username: "lukearnould"
 
-#########################################################################################
-######### Nothing below needs to be changed (unless you know what you're doing) #########
-#########################################################################################
-theme: "minima"
+# #########################################################################################
+# ######### Nothing below needs to be changed (unless you know what you're doing) #########
+# #########################################################################################
+# theme: "minima"
 
 rss: rss
 
