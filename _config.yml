@@ -9,10 +9,10 @@ linkedin_username: "lukearnould"
 instagram_username: "luke.arnould"
 youtube_username: "lukearnould"
 
-# #########################################################################################
-# ######### Nothing below needs to be changed (unless you know what you're doing) #########
-# #########################################################################################
-# theme: "minima"
+#########################################################################################
+######### Nothing below needs to be changed (unless you know what you're doing) #########
+#########################################################################################
+theme: "minima"
 
 rss: rss
 
