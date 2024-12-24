@@ -12,7 +12,11 @@ youtube_username: "lukearnould"
 #########################################################################################
 ######### Nothing below needs to be changed (unless you know what you're doing) #########
 #########################################################################################
-theme: "minima"
+remote_theme: jekyll/minima
+plugins:
+  - jekyll-remote-theme
+minima:
+  skin: auto
 
 minima:
   skin: auto
