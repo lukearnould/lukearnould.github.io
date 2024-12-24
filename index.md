@@ -1,5 +1,14 @@
-# Hey there.. 
+---
+layout: home
+---
 
-I'm Luke, a 20-something software developer out of Oklahoma.
+# Home
 
-This blog was maybe created more out of my love for RSS feeds than me actually having anything to say -- but we'll see.
+<img src="./images/me.png" alt="Me" width="250">
+
+## Hey there!
+I’m Luke, a 20-something software developer out of Oklahoma.
+
+I don't have (m)any blog posts written at the moment but I hope to write about technology, music, walkable cities, and film in time.
+
+---
