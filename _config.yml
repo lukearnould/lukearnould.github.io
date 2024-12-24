@@ -15,7 +15,7 @@ youtube_username: "lukearnould"
 theme: "minima"
 
 minima:
-  skin: dark
+  skin: auto
 
 rss: rss
 
