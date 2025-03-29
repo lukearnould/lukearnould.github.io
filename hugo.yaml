@@ -6,3 +6,6 @@ theme: ["PaperMod"]
 caches:
   images:
     dir: :cacheDir/images
+
+params:
+  og_image: "/images/me.png"
