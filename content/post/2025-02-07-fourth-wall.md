@@ -1,3 +1,8 @@
+---
+title: The Fourth Wall
+date: 2025-02-07
+---
+
 Anyone familiar with film or television is probably aware of the phrase *breaking the fourth wall*. It refers to any point where the veil cast between the audience and the events of the film is disrupted, the actors indicating to us that this is all an act they are no longer playing along with. 
 
 I like to apply this phrase to other scenarios. Humans instinctually create systems, rules, stories, et cetera. To have the capacity to follow these systems as if they were laws of the natural universe is what elevates us from all else. But when an actor participating in a system makes the deliberate action to break its rules, to leap across the barriers and act like they are no longer bound — in a sense the fourth wall of that system has been shattered. 
