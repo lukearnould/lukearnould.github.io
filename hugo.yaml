@@ -1,0 +1,8 @@
+baseURL: https://luke.arnoulds.net/
+languageCode: en-us
+title: Fields Far Away
+theme: ["PaperMod"]
+
+caches:
+  images:
+    dir: :cacheDir/images
