@@ -2,8 +2,6 @@
 layout: home
 ---
 
-# Home
-
 <img src="../images/me.png" alt="Me" width="250">
 
 ## Hey there!
