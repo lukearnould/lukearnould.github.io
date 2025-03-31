@@ -1,2 +1,3 @@
 params:
   env: production
+  og_image: "/images/me.png"
