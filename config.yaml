@@ -1,3 +1,6 @@
 params:
   env: production
   og_image: "/images/me.png"
+
+  assets:
+    favicon: "/assets/me.png"
