@@ -1,7 +1,8 @@
 ---
 layout: home
-title: Hope this finds you well..
 ---
+
+# Hope this finds you well..
 
 I’m Luke, a 20-something software developer out of Oklahoma.
 
