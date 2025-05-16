@@ -14,5 +14,3 @@ params:
   socialIcons:
     - name: "rss"
       url: "https://luke.arnoulds.net/index.xml"
-  assets:
-    - "css/custom.css"
