@@ -1,3 +1,7 @@
 params:
   env: production
   og_image: "/images/me.png"
+
+  socialIcons:
+    - name: "rss"
+      url: "https://luke.arnoulds.net/index.xml"
