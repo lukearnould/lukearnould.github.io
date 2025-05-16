@@ -1,5 +1,6 @@
 :root {
     --theme: rgb(235 244 233);
+    --code-bg: rgb(235 244 233);
 }
 
 .dark {
