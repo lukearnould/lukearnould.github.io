@@ -2,26 +2,36 @@
 
   {{/* Show date */}}
   {{- if .Date }}
-    <span class="date">
-      {{ .Date.Format "Jan 2, 2006" }}
-    </span>
+  <span class="date">
+    {{ .Date.Format "Jan 2, 2006" }}
+  </span>
   {{- end }}
 
   {{/* Show reading time */}}
   {{- if site.Params.ShowReadingTime }}
-    <span class="reading-time">
-      • {{ .ReadingTime }} min read
-    </span>
+  <span class="reading-time">
+    • {{ .ReadingTime }} min read
+  </span>
   {{- end }}
 
   {{/* Show categories */}}
   {{- if .Params.categories }}
-    • 
-    <span class="categories">
-      {{- range .Params.categories }}
-        <a href="{{ "categories/" | relLangURL }}{{ . | urlize }}" class="category">{{ . }}</a>
-      {{- end }}
-    </span>
+  •
+  <span class="categories">
+    {{- range .Params.categories }}
+    <a href="{{ "categories/" | relLangURL }}{{ . | urlize }}" class="category">{{ . }}</a>
+    {{- end }}
+  </span>
+  {{- end }}
+
+  {{/* Show tags */}}
+  {{- if .Params.tags }}
+  <span style="margin-inline-start: .25rem;">
+      •
+    {{- range .Params.tags }}
+    <a href="{{ "tags/" | relLangURL }}{{ . | urlize }}" class="categories">#{{ . }}</a>
+    {{- end }}
+  </span>
   {{- end }}
 
 </div>
