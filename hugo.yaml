@@ -10,6 +10,8 @@ caches:
 params:
   env: production
   defaultTheme: auto
+  showTags: true
+  showCategories: true
   og_image: "/images/me.png"
   ShowFullTextinRSS: true
   socialIcons:
