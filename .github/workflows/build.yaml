@@ -31,4 +31,4 @@ jobs:
           fetch-depth: 0
 
       - name: Build Hugo Site
-        run: hugo --gc --minify
+        run: hugo --gc
