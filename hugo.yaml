@@ -5,6 +5,12 @@ theme: ["PaperMod"]
 
 sectionPagesMenu: main
 
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # necessary for search
+
 menu:
   main:
     - identifier: categories
@@ -12,12 +18,19 @@ menu:
       url: /categories/
       weight: 20
 
+    - identifier: search
+      name: Search
+      url: /search/
+      weight: 30
+
 caches:
   images:
     dir: :cacheDir/images
 
 params:
   env: production
+  ShowBreadCrumbs: true
+  ShowToc: true
   ShowReadingTime: true
   disableThemeToggle: true
   mainSections:
@@ -26,8 +39,9 @@ params:
   defaultTheme: auto
   og_image: "/images/me.png"
   ShowFullTextinRSS: true
+  ShowSocialIcons: true
   socialIcons:
     - name: "rss"
-      url: "https://luke.arnoulds.net/index.xml"
+      url: "index.xml"
   assets:
     theme_color: "#809e88"
