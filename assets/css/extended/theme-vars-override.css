@@ -4,5 +4,6 @@
 }
 
 .dark {
-    --theme: rgb(20  38 25);
+    --theme: rgb(20 38 25);
+    --entry: rgb(12 20 13);
 }
