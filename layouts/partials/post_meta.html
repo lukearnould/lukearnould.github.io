@@ -1,0 +1,27 @@
+<div class="entry-meta">
+
+  {{/* Show date */}}
+  {{- if .Date }}
+    <span class="date">
+      {{ .Date.Format "Jan 2, 2006" }}
+    </span>
+  {{- end }}
+
+  {{/* Show reading time */}}
+  {{- if site.Params.ShowReadingTime }}
+    <span class="reading-time">
+      • {{ .ReadingTime }} min read
+    </span>
+  {{- end }}
+
+  {{/* Show categories */}}
+  {{- if .Params.categories }}
+    • 
+    <span class="categories">
+      {{- range .Params.categories }}
+        <a href="{{ "categories/" | relLangURL }}{{ . | urlize }}" class="category">{{ . }}</a>
+      {{- end }}
+    </span>
+  {{- end }}
+
+</div>

@@ -1,0 +1,6 @@
+.categories {
+    font-weight: 800;
+    background-color: var(--tertiary);
+    padding: .25rem;
+    border-radius: .5rem;
+}

@@ -1,0 +1,14 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Hugo: Run Server",
+      "type": "node",
+      "request": "launch",
+      "preLaunchTask": "Run Hugo Server",
+      "program": "${workspaceFolder}/dummy.js",
+      "skipFiles": ["<node_internals>/**"],
+      "console": "integratedTerminal"
+    }
+  ]
+}

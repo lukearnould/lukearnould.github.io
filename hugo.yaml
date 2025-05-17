@@ -3,17 +3,14 @@ languageCode: en-us
 title: Fields Far Away
 theme: ["PaperMod"]
 
+sectionPagesMenu: main
+
 menu:
   main:
-    - identifier: home
-      name: Home
-      url: /
-      weight: 1
-
     - identifier: categories
       name: Categories
       url: /categories/
-      weight: 10
+      weight: 20
 
 caches:
   images:
@@ -21,9 +18,11 @@ caches:
 
 params:
   env: production
+  ShowReadingTime: true
+  disableThemeToggle: true
   mainSections:
     - categories
-    - post
+    - posts
   defaultTheme: auto
   og_image: "/images/me.png"
   ShowFullTextinRSS: true
