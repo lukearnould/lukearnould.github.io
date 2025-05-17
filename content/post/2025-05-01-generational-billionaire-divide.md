@@ -1,6 +1,7 @@
 ---
 title: Money flows uphill
 date: 2025-05-01
+categories: ["politics"]
 ---
 
 As I watched my family members trade arguments on the character of Elon Musk, whether robber baron or clever businessman, it occurred to me that my previous worldview of billionaire outlooks had been incorrect.

@@ -1,6 +1,7 @@
 ---
 title: The Fourth Wall
 date: 2025-02-07
+categories: ["politics"]
 ---
 
 Anyone familiar with film or television is probably aware of the phrase *breaking the fourth wall*. It refers to any point where the veil cast between the audience and the events of the film is disrupted, the actors indicating to us that this is all an act they are no longer playing along with. 
