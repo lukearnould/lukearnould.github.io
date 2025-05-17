@@ -9,6 +9,7 @@ caches:
 
 params:
   env: production
+  defaultTheme: auto
   og_image: "/images/me.png"
   ShowFullTextinRSS: true
   socialIcons:
