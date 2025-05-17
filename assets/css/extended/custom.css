@@ -24,3 +24,7 @@
     /* Optional: Center the crop */
     display: block;
 }
+
+::-webkit-scrollbar {
+    background: var(--theme);
+}
