@@ -21,6 +21,9 @@ caches:
 
 params:
   env: production
+  mainSections:
+    - categories
+    - post
   defaultTheme: auto
   og_image: "/images/me.png"
   ShowFullTextinRSS: true
