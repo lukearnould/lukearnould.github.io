@@ -19,7 +19,7 @@
   •
   <span class="categories">
     {{- range .Params.categories }}
-    <a href="{{ "categories/" | relLangURL }}{{ . | urlize }}" class="category">{{ . }}</a>
+    <a href="{{ " categories/" | relLangURL }}{{ . | urlize }}" class="category">{{ . }}</a>
     {{- end }}
   </span>
   {{- end }}
@@ -27,11 +27,29 @@
   {{/* Show tags */}}
   {{- if .Params.tags }}
   <span style="margin-inline-start: .25rem;">
-      •
+    •
     {{- range .Params.tags }}
-    <a href="{{ "tags/" | relLangURL }}{{ . | urlize }}" class="categories">#{{ . }}</a>
+    <a href="{{ " tags/" | relLangURL }}{{ . | urlize }}" class="categories">#{{ . }}</a>
     {{- end }}
   </span>
   {{- end }}
 
+  {{/* Rating */}}
+  {{- if .Params.rating }}
+  <span style="margin-inline-start: .25rem;">
+    •
+    {{ $rating := .Params.rating }}
+    {{ $empty := sub 5 .Params.rating }}
+
+    {{ range seq 1 $rating }}
+    <span>★</span>
+    {{ end }}
+
+    {{ if gt $empty 0 }}
+      {{ range seq 1 $empty }}
+      <span>☆</span>
+      {{ end }}
+    {{ end }}
+  </span>
+  {{- end }}
 </div>
