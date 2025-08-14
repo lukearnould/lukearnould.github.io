@@ -5,7 +5,7 @@ date: '2025-08-13T22:07:31-05:00'
 categories: ["career"]
 tags: [""]
 cover:
-    image: "/img/"
+    image: "/img/2025-08-13/tomatoes.jpeg"
 ---
 
 Dilluting my work day with frequent minor breaks is important to me, because if I don't give myself periodic breaks I have a tendency to work myself into a frenzy which leaves me feeling tired and sometimes stressed.
