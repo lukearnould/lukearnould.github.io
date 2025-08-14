@@ -9,7 +9,7 @@ cover:
 
 Beginners to houseplanting often fall into logical traps on what is required while neglecting other essential principles. I've had the chance to research along my houseplant journey and mentally compile some best practices. This post is definitely more useful for a beginner than anyone who's been doing this longer than I have. 
 
-I'm reminded and influenced by the [priciples of agile](https://agilemanifesto.org) written in that cabin many decades ago (or however that myth goes):
+I'm reminded and influenced by the [principles of agile](https://agilemanifesto.org) written in that cabin many decades ago (or however that myth goes):
 
 - Quality of soil over quantity of soil
     - The right soil for a plant is infinitely more important than giving it a large pot. In fact, most houseplants prefer a tight pot fit.
