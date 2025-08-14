@@ -8,3 +8,8 @@ This uses Hugo + PaperMod.
 ```cmd
 hugo new content posts/{filename}
 ```
+
+### Run locally
+```cmd
+hugo server
+```
