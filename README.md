@@ -6,7 +6,7 @@ This uses Hugo + PaperMod.
 
 ### Create a new post
 ```cmd
-hugo new content posts/{filename}
+hugo new content posts/{filename}.md
 ```
 
 ### Run locally
