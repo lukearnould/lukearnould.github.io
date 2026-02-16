@@ -1,6 +1,9 @@
+# Custom fields
 baseURL: https://luke.arnoulds.net/
-languageCode: en-us
 title: 🪴 Fields Far Away
+# End custom fields
+
+languageCode: en-us
 theme: ["PaperMod"]
 
 sectionPagesMenu: main
@@ -38,8 +41,12 @@ caches:
     dir: :cacheDir/images
 
 params:
-  env: production
+  # Custom params
   author: Luke
+  og_image: "/images/me.png"
+  # End custom params
+
+  env: production
   ShowBreadCrumbs: true
   ShowToc: true
   ShowReadingTime: true
@@ -48,7 +55,6 @@ params:
     - categories
     - posts
   defaultTheme: auto
-  og_image: "/images/me.png"
   ShowFullTextinRSS: true
   ShowSocialIcons: true
   socialIcons:
